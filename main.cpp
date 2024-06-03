@@ -26,6 +26,7 @@ void visualize_tensor_slice(const Tensor4D<int>& tensor, size_t k, size_t l) {
     system("gnuplot script.gp");
 }
 
+
 int main() {
     // Create a Tensor4D object
     Tensor4D<int> tensor(10, 10, 10, 10);
