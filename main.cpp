@@ -18,6 +18,8 @@ void simulate_tokenization(Tensor4D<int>& tensor) {
     }  
 }
 
+
+
 void visualize_tensor(const Tensor4D<int>& tensor) {
     vector<vector<double>> data2D(10, vector<double>(10));
     for (size_t i = 0; i < 10; ++i) {
